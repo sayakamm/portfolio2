@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sayaka</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css"
+    />
+    <link rel="stylesheet" href="https://sayakamm.github.io/portfolio2/style.css" />
+  </head>
+
+  <body>
+    <!-- pop-up -->
+    <div class="overlay" id="pop-up1">
+      <a href="#" class="cancel"></a>
+      <div class="window">
+        <div class="img">
+          <img src="https://github.com/sayakamm/portfolio2/blob/main/calligrapy1.jpg?raw=true" alt="" class="img-item" />
+          <img src="https://github.com/sayakamm/portfolio2/blob/main/calligrapy2.jpg?raw=true" alt="" class="img-item" />
+        </div>
+        <p class="text">
+          中学1年生から高校3年生まで書道部に所属していました。<br />
+          書作品や書道パフォーマンスの大会に向けて活動し、<br />
+          全国大会出場などの経験ができました。
+        </p>
+        <p class="close"><a href="#">×</a></p>
+      </div>
+    </div>
+    <div class="overlay" id="pop-up2">
+      <a href="#" class="cancel"></a>
+      <div class="window">
+        <div class="img i">
+          <img src="https://github.com/sayakamm/portfolio2/blob/main/anime.jpg?raw=true" alt="" class="img-item" />
+        </div>
+        <p class="text">
+          アニメ鑑賞や漫画を読むことが好きで、好きなアニメのイベントに参加したり、休日に一気見したりして息抜きをしています。
+        </p>
+        <p class="close"><a href="#">×</a></p>
+      </div>
+    </div>
+    <div class="overlay" id="pop-up3">
+      <a href="#" class="cancel"></a>
+      <div class="window">
+        <div class="img">
+          <img src="https://github.com/sayakamm/portfolio2/blob/main/acappella1.jpg?raw=true" alt="" class="img-item" />
+          <img src="https://github.com/sayakamm/portfolio2/blob/main/acappella2.jpg?raw=true" alt="" class="img-item" />
+        </div>
+        <p class="text">
+          大学1年生からアカペラサークルに所属しています。5～6人のバンドを組み、アカペライベントや大会に出演しています。また、サークル内で開催されるライブの企画・運営も行っています。
+        </p>
+        <p class="close"><a href="#">×</a></p>
+      </div>
+    </div>
+    <!-- popup終了 -->
+
+    <div class="container">
+      <div class="btt" id="btt"></div>
+
+      <!-- header -->
+      <header class="header" id="header">
+        <h1 class="title">Sayaka</h1>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="#about" class="header-link">ABOUT</a>
+            </li>
+            <li class="header-item">
+              <a href="#profile" class="header-link">PROFILE</a>
+            </li>
+            <li class="header-item">
+              <a href="#skill" class="header-link">SKILL</a>
+            </li>
+            <li class="header-item">
+              <a href="#works" class="header-link">WORKS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </div>
+      </header>
+      <!-- header終了 -->
+
+      <!-- mv -->
+      <div class="mv">
+        <p class="mv-copy js-wipe">
+          Welcome to <br class="hidden" />my portfolio.
+        </p>
+      </div>
+      <!-- mv終了 -->
+
+      <!-- ABOUT -->
+      <section class="about wrapper slide-trigger" id="about">
+        <div class="section-title">
+          <h2 class="section-title-en">ABOUT</h2>
+          <h3 class="section-title-ja">私について</h3>
+        </div>
+        <div class="about-content">
+          <div class="about-body slide">
+            <div class="about-body-img">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/me.jpg?raw=true" alt="" class="about-img" />
+            </div>
+            <div class="about-body-txt">
+              <h4 class="about-body-title">むらまつさやか</h4>
+              <p class="about-body-item">
+                東京都出身。<br />
+                茨城県つくば市在住の大学3年生。<br />
+                2021年8月～Web制作の勉強を開始。<br />
+                趣味は書道、アニメ、アカペラなど。
+              </p>
+            </div>
+          </div>
+
+          <div class="about-popup slide">
+            <div class="about-btn">
+              <a href="#pop-up1" class="btn-name">書道</a>
+            </div>
+            <div class="about-btn">
+              <a href="#pop-up2" class="btn-name">アニメ</a>
+            </div>
+            <div class="about-btn">
+              <a href="#pop-up3" class="btn-name">アカペラ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT終了 -->
+
+      <!-- PROFILE -->
+      <section class="profile wrapper" id="profile">
+        <div class="section-title">
+          <h2 class="section-title-en">PROFILE</h2>
+          <h3 class="section-title-ja">これまで</h3>
+        </div>
+        <div class="profile-content">
+          <ul class="profile-list">
+            <li class="profile-item slide-trigger">
+              <h3 class="profile-date">2019.4<br />大学1年生</h3>
+              <p class="profile-txt slide">
+                プログラミングと出会う。授業で初めて触れたPythonに挫折するも、エンジニアに興味を持つ。
+              </p>
+            </li>
+            <li class="profile-item slide-trigger">
+              <h3 class="profile-date">2021.8<br />大学3年生</h3>
+              <p class="profile-txt slide">
+                就職活動を機に、自分の武器を探してプログラミングスクールに入学。Web制作を学ぶ。
+              </p>
+            </li>
+            <li class="profile-item slide-trigger">
+              <h3 class="profile-date">2021.12<br />大学3年生</h3>
+              <p class="profile-txt slide">
+                スクールを卒業。その後、エンジニア職に絞って就職活動を始める。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- PROFILE終了 -->
+
+      <!-- SKILL -->
+      <section class="skill wrapper" id="skill">
+        <div class="section-title">
+          <h2 class="section-title-en">SKILL</h2>
+          <h3 class="section-title-ja">できること</h3>
+        </div>
+        <div class="skill-content slide-trigger">
+          <ul class="skill-list slide">
+            <li class="skill-item">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/html5.png?raw=true" alt="" class="skill-img" />
+              <p class="skill-item-txt">HTML</p>
+            </li>
+            <li class="skill-item">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/css3.png?raw=true" alt="" class="skill-img" />
+              <p class="skill-item-txt">CSS</p>
+            </li>
+            <li class="skill-item">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/javascript2.png?raw=true" alt="" class="skill-img" />
+              <p class="skill-item-txt">Java Script</p>
+            </li>
+            <li class="skill-item">
+              <img src="images/jquery.png" alt="" class="skill-img" />
+              <p class="skill-item-txt">jQuery</p>
+            </li>
+            <li class="skill-item">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/wordpress.png?raw=true" alt="" class="skill-img" />
+              <p class="skill-item-txt">WordPress</p>
+            </li>
+            <li class="skill-item">
+              <img src="https://github.com/sayakamm/portfolio2/blob/main/adobexd.png?raw=true" alt="" class="skill-img" />
+              <p class="skill-item-txt">Adobe XD</p>
+            </li>
+          </ul>
+          <div class="skill-box slide">
+            <p class="skill-txt">
+              アニメーションを使った動的なサイト作りが可能です。<br />
+              現在、独学でPHPの勉強も始めています。
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- SKILL終了 -->
+
+      <!-- WORKS -->
+      <section class="works wrapper" id="works">
+        <div class="section-title">
+          <h2 class="section-title-en">WORKS</h2>
+          <h3 class="section-title-ja">制作実績</h3>
+        </div>
+        <div class="slick-screen slide-trigger">
+          <div class="slick-slides">
+            <div class="works-item slide">
+              <div class="works-item-back">
+                <a href="http://sayaka.moo.jp/">
+                  <img
+                    src="https://github.com/sayakamm/portfolio2/blob/main/portfolio2.png?raw=true"
+                    alt=""
+                    class="works-item-img"
+                  />
+                </a>
+              </div>
+              <p class="works-item-txt">
+                むらまつさやかポートフォリオサイト<br />卒業制作の改善版<br />製作期間：3週間
+              </p>
+            </div>
+            <div class="works-item slide">
+              <div class="works-item-back">
+                <a href="https://sayakamm.github.io/portfolio/">
+                  <img
+                    src="https://github.com/sayakamm/portfolio2/blob/main/portfolio1.png?raw=true"
+                    alt=""
+                    class="works-item-img"
+                  />
+                </a>
+              </div>
+              <p class="works-item-txt">
+                ポートフォリオサイト１<br />プログラミングスクールの卒業制作<br />製作期間：1週間
+              </p>
+            </div>
+            <div class="works-item slide">
+              <div class="works-item-back">
+                <a href="#">
+                  <img
+                    src="https://github.com/sayakamm/portfolio2/blob/main/chocolate.JPG?raw=true"
+                    alt=""
+                    class="works-item-img"
+                  />
+                </a>
+              </div>
+              <p class="works-item-txt">Coming soon...</p>
+            </div>
+          </div>
+          <div class="slick-wrap">
+            <div class="btn-left slide">
+              <button class="slick-btn js-prev"></button>
+            </div>
+            <div class="btn-right slide">
+              <button class="slick-btn js-next"></button>
+            </div>
+          </div>
+          <div class="pagination slide">
+            <span class="pagination-circle target"></span>
+            <span class="pagination-circle"></span>
+            <span class="pagination-circle"></span>
+          </div>
+        </div>
+      </section>
+      <!-- WORKS終了 -->
+
+      <!-- footer -->
+      <footer class="footer slide-trigger">
+        <div class="footer-content">
+          <div class="footer-slide">
+            <p class="footer-txt slide">Univercity of Tsukuba</p>
+            <p class="footer-txt ja slide">
+              筑波大学 情報学群<br class="hidden" />知識情報・図書館学類
+            </p>
+            <p class="footer-txt ja slide">村松 彩</p>
+            <p class="footer-txt slide">s1911535@s.tsukuba.ac.jp</p>
+            <p class="footer-txt slide">Thank you for watching!</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2022 Sayaka Muramatsu All Rights Reserved.</p>
+        </div>
+      </footer>
+      <!-- footer終了 -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://sayakamm.github.io/portfolio2/main.js"></script>
+  </body>
+</html>
